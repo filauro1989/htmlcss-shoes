@@ -10,11 +10,26 @@ html{
 .relative {
     position: relative;
 }
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.green-text {
+    color: green;
+}
+.yellow-text {
+    color: yellow;
+}
 
 .container {
     width: 100%;
     height: 100vh;
-    background-color: red;
+
 }
 
 /* selettore pagina */
@@ -53,6 +68,5 @@ html{
 
 .container .content .description {
     text-align: center;
-    color: yellow;
     font-size: 1.6em;
 }
