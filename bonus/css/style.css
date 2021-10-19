@@ -48,10 +48,11 @@ html{
     padding: 1em 1.2em;
     border-radius: 50%;
     margin: 0.8em;
-    transition: box-shadow .3s;
+
 }
 .page-selector a:hover{
     box-shadow: -0 5px 8px rgba(0,0,0,0.8);
+    transition: .3s;
 }
 
 /* contenuto pagina */
