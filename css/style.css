@@ -17,7 +17,27 @@ html{
     background-color: red;
 }
 
-.content {
+/* selettore pagina */
+.page-selector {
+    position: fixed;
+    top: 2em;
+    right: 0.5em;
+    
+}
+.page-selector a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 0.6em;
+    padding: 1em 1.2em;
+    border-radius: 50%;
+    margin: 0.8em;
+
+}
+    
+
+/* contenuto pagina */
+.container .content {
     height: 50%;
     position: absolute;
     top: 50%;
@@ -25,14 +45,14 @@ html{
     transform: translate(-50%, -50%);
 
 }
-.content img {
+.container .content img {
     height: 80%;
     display: block;
     margin: 0 auto;
 }
 
-.description {
+.container .content .description {
     text-align: center;
     color: yellow;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
